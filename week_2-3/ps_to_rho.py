@@ -38,7 +38,7 @@ print("")
 #will compare the current p_target value and then use it to the the ps local value, stored in the x variable
 for x in range(len(p_local)-1):
     if p_local[x] < p_target and p_local[x+1] > p_target:
-        local = x
+        #local = x
         break
 #print (p_local[x])
 

@@ -19,3 +19,7 @@ Challenges:
   *Pickle being confusing at times, and finding documentation for the package
 
 The endgoal at the end will be to end with Neutron Star models that are realistic enough, and as such we need the foundation to build the models. The goal of the upcoming 2 weeks will be to fully learn these governing equations, along with being able to solve them in Python scripts.
+
+#################################################################################
+
+Tasks:

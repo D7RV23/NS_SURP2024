@@ -32,7 +32,7 @@ Task 1: Read the Pickle File (Completed)
 
  The most dificult part regarding the pickle file was finding the documentation on it online, along with pulling the required material from it, after it was pulled then it became more easy to work with it.
 
-Task 2:Writing the Subroutines for finding pressure from density, and density from pressure(completed
+Task 2:Writing the Subroutines for finding pressure from density, and density from pressure (completed)
 
  most of the work that came from this was figuring out how to work with the pickle file, and Proffesor Shin Chi really help with the Psudo code 
 

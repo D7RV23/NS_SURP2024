@@ -1,9 +1,12 @@
 SURP Week 2-3 Report
 
 Objective:
+
   *Learn the governing equations of Neutron Stars, and to solve them
+  
 What I learned:
-  *The different Equations that explain the existance of NeutronsStars to our understanding.
+
+  *The different Equations that explain the existance of Neutrons Stars to our understanding.
   
   *Using the Pickle Packages. 
   

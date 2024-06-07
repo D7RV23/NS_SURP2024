@@ -14,7 +14,7 @@ What I learned:
   
 Challenges:
 
-  Python has still being a thron on the side due to always thinking code in C++,and Java syntax
+  Python has still being a thorn on the side due to always thinking code in C++,and Java syntax
   
   Pickle being confusing at times, and finding documentation for the package
 

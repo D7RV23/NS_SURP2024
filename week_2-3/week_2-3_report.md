@@ -13,6 +13,7 @@ What I learned:
   *Implementing all the code in this Git Repository, really helps out with keeping information easly available, and letting me work on any of my devices.
   
 Challenges:
+
   *Python has still being a thron on the side due to always thinking code in C++,and Java syntax
   
   *Pickle being confusing at times, and finding documentation for the package

@@ -33,12 +33,24 @@ print("")
 print("")
 
 #will compare the current rho_target value and then use it to the the ps local value, stored in the x variable
-for x in range(len(rhos_local)-1):
-    if rhos_local[x] < rho_target and rhos_local[x+1] > rho_target:
-        local = x
-        break
+for x in range(len(rho_local)-1):
+#first case: when the p_targer is less that the first value of the p_local
+    if rho_target < rho_local[0]:
+            rho_target = rho_local[0]
+            break
+#second case: when the p_target is greater than the last value of the p_local    
+    if rho_target <= rho_local[-1]:
+            #have to do this as otherwise it would try to access a value that does not exist
+            rho_target = rho_local[-2]
+            break
+#Deafult case, When the rho target is between the given parameters needed
+    if rho_local[x] < rho_target and rho_local[x+1] > rho_target:
+            #local = x
+            break
 #print (p_local[x])
-
+# i thougth that i would need to make a different value that would take the x value, however that wont be needed as all
+#
+#
 #will use interpolation to find P_target
 #Equation used:  
 print("p_Local: ",p_local[x])

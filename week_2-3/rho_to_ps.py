@@ -1,8 +1,11 @@
+"""
+@author Diego Gamarra
+"""
+
 import pickle
 
 
-
-pickleContents = open ( r"C:\Users\17573\Desktop\School\SURP-2024\eostable.pk", "rb" )
+pickleContents = open ( r"C:\Users\17573\Documents\School\SURP-2024\week-2\eostable.pk", "rb" )
 
 pickle = pickle.load(pickleContents)
 
@@ -13,8 +16,8 @@ print(pickle["DS_CMF1_wcrust/"]['rhos'])
 
 #prints the rho local values
 print ("rhos Local")
-rhos_local = pickle["DS_CMF1_wcrust/"]['rhos']
-print (rhos_local)
+rho_local = pickle["DS_CMF1_wcrust/"]['rhos']
+print (rho_local)
 print("")
 print("")
 
@@ -54,6 +57,6 @@ for x in range(len(rho_local)-1):
 #will use interpolation to find P_target
 #Equation used:  
 print("p_Local: ",p_local[x])
-p_target = p_local[x] + (((p_local[x+1] - p_local[x]) / (rhos_local[x+1] - rhos_local[x])) * (rho_target - rhos_local[x]))
+p_target = p_local[x] + (((p_local[x+1] - p_local[x]) / (rho_local[x+1] - rho_local[x])) * (rho_target - rho_local[x]))
 
 print("P_target: ", p_target) 

@@ -38,4 +38,7 @@ Task 2:Writing the Subroutines for finding pressure from density, and density fr
 
 Task 3:Developing the Euler Method Solver (In Progress)
 
- as of 6/6/24 Im still figuring out the Psudo Code on my own so implementing the code wont be too much of a hassle.
+ making the model turned out to be easier that what was expected,I was ovthinking the problem
+
+
+

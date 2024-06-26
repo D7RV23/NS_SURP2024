@@ -17,7 +17,7 @@ print(pickle["DS_CMF1_wcrust/"]['rhos'])
 #prints the rho local values
 print ("rhos Local")
 rho_local = pickle["DS_CMF1_wcrust/"]['rhos']
-print (rho_local)
+print (rho_local) 
 print("")
 print("")
 

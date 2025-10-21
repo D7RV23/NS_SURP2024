@@ -4,4 +4,4 @@ Exploring The Diversity of Neutron Stars at SUNY POLY Student Undergraduate Rese
 
 Most of these programs require the 'eostable.pk' to function properly
 
-
+Attempting to make code reable n hopefully work on this again.
